@@ -1,0 +1,135 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 900;
+            display: flex;
+            font-size: 20px;
+            background-color: rgb(185, 141, 248);
+            padding: 23px;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: rgb(2, 3, 18);
+            transition: all;
+            transition-duration: 500ms;
+        }
+
+        nav li a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        div.logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 23px;
+            font-size: 24px;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        .container {
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(236, 243, 249);
+            display: flex;
+            justify-content: center;
+          padding-top:20px ;
+        }
+       
+        .container h1,
+        h2 {
+            margin: 23px 0;
+        }
+         .hline{
+            margin:0;
+            padding:0;
+         }
+         
+         .container form {
+            display: flex;
+            flex-direction: column;
+           
+        }
+
+        
+        #btn {
+            width: 144px;
+            padding: 5px 8px;
+            font-size: 20px;
+            background: #9964df;
+            color:white;
+            border-color: #9964df;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .output {
+            margin-top: 20px; 
+            text-align: center;
+            display: none;
+        }
+
+        .output table {
+            width: 50vw;
+            text-align: center;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+
+        .output table th{
+            padding: 3px;
+        }
+
+        @media (max-width: 600px) {
+            
+
+            nav {
+                flex-direction: column;
+                font-size: 14px;
+            }
+
+            nav ul li {
+                margin: 5px 13px;
+            }
+
+            nav ul {
+                justify-content: center;
+            }
+
+            .container {
+                max-width: 95vw;
+                
+            }
+
+            .container form input[type='number'],
+            select,
+            label {
+                width: 80vw;
+            }
+        }
+
+        footer {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background-color: rgb(176, 175, 175);
+        }
+    
+

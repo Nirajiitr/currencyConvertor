@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency convertor</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+</head>
+<body>
+    <nav>
+        <div class="logo">currency convertor</div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="https://nirajiitr.github.io/html.MyResume/">About Us</a></li>
+            <li><a href="https://nirajiitr.github.io/html.MyResume/contact.html">Contact Me</a></li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        <div class="sub-container">
+            <form action="" method="get">
+                <label for="code"> 
+                    <h2 class="hline">choose currencies</h2>
+                    <select name="currencyCode" class="code">
+
+                        <option value="USD">US dollar</option>
+                            <option value="AFN">Afghan afghani</option>
+                            <option value="EUR">Euro</option>
+                           
+                            <option value="GBP">British pound</option>
+                            <option value="INR">Indian rupee</option>
+                            <option value="AUD">Australian dollar</option>
+                            <option value="CAD">Canadian dollar</option>
+                            <option value="CNY">Chinese yuan</option>
+                            <option value="JPY">Japanese yen</option>
+                            <option value="NZD">New Zealand dollar</option>
+                            <option value="CHF">Swiss franc</option>
+                            <option value="HKD">Hong Kong dollar</option>
+                            <option value="SGD">Singapore dollar</option>
+                            <option value="KRW">South Korean won</option>
+                            <option value="BRL">Brazilian real</option>
+                            <option value="RUB">Russian ruble</option>
+                            <option value="TRY">Turkish lira</option>
+                            <option value="ZAR">South African rand</option>
+                            <option value="AED">United Arab Emirates dirham</option>
+                            <option value="SAR">Saudi riyal</option>
+                            <option value="MXN">Mexican peso</option>
+                            <option value="SEK">Swedish krona</option>
+                            <option value="NOK">Norwegian krone</option>
+                            <option value="DKK">Danish krone</option>
+                            <option value="PLN">Polish złoty</option>
+                            <option value="HUF">Hungarian forint</option>
+                            <option value="CZK">Czech koruna</option>
+                            <option value="ILS">Israeli new shekel</option>
+                            <option value="EGP">Egyptian pound</option>
+                            <option value="ARS">Argentine peso</option>
+                            <option value="IDR">Indonesian rupiah</option>
+                          
+                          
+                    </select>
+                    <h2 class="hline">Enter currency amounts</h2>
+                    <input type="number"  name="currencyValue" placeholder="enter currency amount" />
+                    
+                </label>
+                
+              <button type="submit" value="submit" id="btn">Convert</button>
+            </form>
+            <div class="output">
+                <h2>Here is your converted values in different currencies</h2>
+                <table>
+                    <thead>
+                        <tr>
+            
+                            <th>Currency Code</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            
+                    </tbody>
+                </table>
+            </div>
+           
+           
+            
+        </div>
+
+    </div>
+
+    <footer>
+        copyright &copy; All right reserved
+    </footer>
+     
+    <script src="./index.js"></script>
+</body>
+</html>
